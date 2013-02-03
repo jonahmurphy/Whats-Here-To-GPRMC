@@ -14,7 +14,7 @@ for compartive testing and studies in order to determine the accuracy of a Gps b
 using tools which accepted only GPRMC sentences. 
 
 **Note:** The only fields in the sentence that are soft-coded are the Latitude, Longitude, Date and Time.
-The code will be need to be updated to add the correct checksum etc if that is required.
+The code will be need to be updated to add the correct checksum etc if that is what you require.
 
 ![Whats Here To GPRMC Screenshot](https://github.com/murjay/Whats-Here-To-GPRMC/raw/master/doc/screenshot.png)
 
