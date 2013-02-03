@@ -1,4 +1,4 @@
-Whats Here To GPRMC
+"Whats Here" To GPRMC
 ===================
 
 A simple no frills tool to generate [GPRMC Sentences](http://aprs.gids.nl/nmea/#rmc) using Google Maps.
