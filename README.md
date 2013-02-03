@@ -1,7 +1,7 @@
 Whats Here To GPRMC
 ===================
 
-A simple tool to generate GPRMC Sentences using Google Maps.
+A simple no frills tool to generate [GPRMC Sentences](http://aprs.gids.nl/nmea/#rmc) using Google Maps.
 
 I wrote this to automate the tedious manual process of generating "pseudo" GPRMC sentences which is as follows.
 - Determine coordinates using Google Maps whats here function
@@ -13,7 +13,18 @@ I needed to generate "Gold Data" i.e to find the correct coordinates (according 
 for compartive testing and studies in order to determine the accuracy of a Gps based embedded device visually and computationally
 using tools which accepted only GPRMC sentences. 
 
+The only fields in the sentence that are soft-coded are the Latitude, Longitude, Date and Time.
+The code will be need to be updated to add the correct checksum etc if that is required.
+
 ![Whats Here To GPRMC Screenshot](https://github.com/murjay/Whats-Here-To-GPRMC/raw/master/doc/screenshot.png)
+
+Usage
+-----
+
+1. Add a date in UTC format to the date text box e.g 2nd of April 2013 ==> 020413 (There is no error checking, so get it right!)
+2. Add a time in UTC format to the time text box e.g 22:54:46 ==> 225446   (There is no error checking, so get it right!)
+3. Click on the map to add points
+
 
 License
 -------
