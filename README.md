@@ -3,13 +3,13 @@
 
 A simple no frills tool to generate [GPRMC Sentences](http://aprs.gids.nl/nmea/#rmc) using Google Maps.
 
-I wrote this to automate the tedious manual and error prone process of generating "pseudo" GPRMC sentences which is as follows.
+This tool was written to automate the tedious manual and error prone process of generating "pseudo" GPRMC sentences which is as follows.
 - Determine coordinates using Google Maps *whats here* feature
 - Convert the coordinates to degrees minutes format used in GPRMC sentence using one of the many online tools available
 - Manually form the Gps Sentence by hand with a text editor using the coordintes
 
 If your wondering  why would you want to generate GPRMC sentences -
-I needed to generate "Gold Data" i.e to find the correct coordinates according to Google Maps for a number of points
+It was needed to generate "Gold Data" i.e to find the correct coordinates according to Google Maps for a number of points
 for compartive testing and studies in order to determine the accuracy of a Gps based embedded device visually and computationally
 using tools which accepted only GPRMC sentences. 
 
@@ -22,7 +22,7 @@ Usage
 -----
 
 1. Add a date in UTC format to the date text box e.g 2nd of April 2013 ==> 020413 (There is no error checking, so get it right!)
-2. Add a time in UTC format to the time text box e.g 22:54:46 ==> 225446   (There is no error checking, so get it right!)
+2. Add a time in UTC format to the time text box e.g 22:54:46 ==> 225446   (No error checking, so get it right!)
 3. Click on the map to add points and generate the corresponding GPRMC sentences
 
 
