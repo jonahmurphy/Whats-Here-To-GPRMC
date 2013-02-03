@@ -4,16 +4,16 @@ Whats Here To GPRMC
 A simple no frills tool to generate [GPRMC Sentences](http://aprs.gids.nl/nmea/#rmc) using Google Maps.
 
 I wrote this to automate the tedious manual process of generating "pseudo" GPRMC sentences which is as follows.
-- Determine coordinates using Google Maps whats here function
+- Determine coordinates using Google Maps *whats here* feature
 - Convert the coordinates to degrees minutes format used in GPRMC sentence using one of the many online tools available
 - Manually create the Gps Sentence by hand using the coordintes
 
 If your wondering  why would you want to generate GPRMC sentences -
-I needed to generate "Gold Data" i.e to find the correct coordinates (according to Google Maps) 
+I needed to generate "Gold Data" i.e to find the correct coordinates according to Google Maps for a number of points
 for compartive testing and studies in order to determine the accuracy of a Gps based embedded device visually and computationally
 using tools which accepted only GPRMC sentences. 
 
-The only fields in the sentence that are soft-coded are the Latitude, Longitude, Date and Time.
+**Note:** The only fields in the sentence that are soft-coded are the Latitude, Longitude, Date and Time.
 The code will be need to be updated to add the correct checksum etc if that is required.
 
 ![Whats Here To GPRMC Screenshot](https://github.com/murjay/Whats-Here-To-GPRMC/raw/master/doc/screenshot.png)
