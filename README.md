@@ -23,7 +23,7 @@ Usage
 
 1. Add a date in UTC format to the date text box e.g 2nd of April 2013 ==> 020413 (There is no error checking, so get it right!)
 2. Add a time in UTC format to the time text box e.g 22:54:46 ==> 225446   (There is no error checking, so get it right!)
-3. Click on the map to add points
+3. Click on the map to add points and generate the corresponding GPRMC sentences
 
 
 License
