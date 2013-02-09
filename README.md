@@ -5,7 +5,7 @@ A simple no frills tool to generate [GPRMC Sentences](http://aprs.gids.nl/nmea/#
 
 This tool was written to automate the tedious manual and error prone process of generating "pseudo" GPRMC sentences which is as follows.
 - Determine coordinates using Google Maps *whats here* feature
-- Convert the coordinates to degrees minutes format used in GPRMC sentence using one of the many online tools available
+- Convert the coordinates to degrees minutes format used in GPRMC sentences using one of the many online tools available
 - Manually form the Gps Sentence by hand with a text editor using the coordintes
 
 If your wondering  why would you want to generate GPRMC sentences -
